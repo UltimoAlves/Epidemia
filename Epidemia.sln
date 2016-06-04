@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C7AFB264-82E5-6F21-7EC3-51245CF05FF3}") = "Epidemia", "Assembly-CSharp.csproj", "{2FF79481-1131-8916-34B5-99F5D403499C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF79481-1131-8916-34B5-99F5D403499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF79481-1131-8916-34B5-99F5D403499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF79481-1131-8916-34B5-99F5D403499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF79481-1131-8916-34B5-99F5D403499C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
