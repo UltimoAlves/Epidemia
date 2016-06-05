@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 4e8110b8cf2da4f4ab4dba600d70fe45
+timeCreated: 1465094887
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite-sheet-infectado_0
+    21300002: sprite-sheet-infectado_1
+    21300004: sprite-sheet-infectado_2
+    21300006: sprite-sheet-infectado_3
+    21300008: sprite-sheet-infectado_4
+    21300010: sprite-sheet-infectado_5
+    21300012: sprite-sheet-infectado_6
+    21300014: sprite-sheet-infectado_7
+    21300016: sprite-sheet-infectado_8
+    21300018: sprite-sheet-infectado_9
+    21300020: sprite-sheet-infectado_10
+    21300022: sprite-sheet-infectado_11
+    21300024: sprite-sheet-infectado_12
+    21300026: sprite-sheet-infectado_13
+    21300028: sprite-sheet-infectado_14
+    21300030: sprite-sheet-infectado_15
+    21300032: sprite-sheet-infectado_16
+    21300034: sprite-sheet-infectado_17
+    21300036: sprite-sheet-infectado_18
+    21300038: sprite-sheet-infectado_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: sprite-sheet-infectado_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2018
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.78897, y: 166.96399}
+        - {x: -165.78897, y: -166.03601}
+        - {x: 166.21103, y: -166.03601}
+        - {x: 166.21103, y: 166.96399}
+    - name: sprite-sheet-infectado_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2018
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.8552, y: 166.96399}
+        - {x: -165.8552, y: -166.03601}
+        - {x: 167.1448, y: -166.03601}
+        - {x: 167.1448, y: 166.96399}
+    - name: sprite-sheet-infectado_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2018
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.74628, y: 166.96399}
+        - {x: -165.74628, y: -166.03601}
+        - {x: 166.25372, y: -166.03601}
+        - {x: 166.25372, y: 166.96399}
+    - name: sprite-sheet-infectado_3
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2018
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164.63733, y: 166.96399}
+        - {x: -165.63733, y: 165.96399}
+        - {x: -165.63733, y: -166.03601}
+        - {x: 167.36267, y: -166.03601}
+        - {x: 167.36267, y: 166.96399}
+    - name: sprite-sheet-infectado_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1539
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.78897, y: 166.88062}
+        - {x: -165.78897, y: -166.11938}
+        - {x: 166.21103, y: -166.11938}
+        - {x: 166.21103, y: 166.88062}
+    - name: sprite-sheet-infectado_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1539
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.8552, y: 166.88062}
+        - {x: -165.8552, y: -166.11938}
+        - {x: 167.1448, y: -166.11938}
+        - {x: 167.1448, y: 166.88062}
+    - name: sprite-sheet-infectado_6
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1539
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.74628, y: 166.88062}
+        - {x: -165.74628, y: -166.11938}
+        - {x: 166.25372, y: -166.11938}
+        - {x: 166.25372, y: 166.88062}
+    - name: sprite-sheet-infectado_7
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1539
+        width: 402
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164.63733, y: 166.88062}
+        - {x: -165.63733, y: 165.88062}
+        - {x: -165.63733, y: -166.11938}
+        - {x: 167.36267, y: -166.11938}
+        - {x: 167.36267, y: 166.88062}
+    - name: sprite-sheet-infectado_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1060
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.78897, y: 166.29724}
+        - {x: -165.78897, y: -165.70276}
+        - {x: 166.21103, y: -165.70276}
+        - {x: 166.21103, y: 166.29724}
+    - name: sprite-sheet-infectado_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1060
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.8552, y: 166.29724}
+        - {x: -165.8552, y: -165.70276}
+        - {x: 167.1448, y: -165.70276}
+        - {x: 167.1448, y: 166.29724}
+    - name: sprite-sheet-infectado_10
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1060
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.74628, y: 166.29724}
+        - {x: -165.74628, y: -165.70276}
+        - {x: 166.25372, y: -165.70276}
+        - {x: 166.25372, y: 166.29724}
+    - name: sprite-sheet-infectado_11
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1060
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164.63733, y: 166.29724}
+        - {x: -165.63733, y: 165.29724}
+        - {x: -165.63733, y: -165.70276}
+        - {x: 167.36267, y: -165.70276}
+        - {x: 167.36267, y: 166.29724}
+    - name: sprite-sheet-infectado_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 581
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.78897, y: 166.21387}
+        - {x: -165.78897, y: -165.78613}
+        - {x: 166.21103, y: -165.78613}
+        - {x: 166.21103, y: 166.21387}
+    - name: sprite-sheet-infectado_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 581
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.8552, y: 166.21387}
+        - {x: -165.8552, y: -165.78613}
+        - {x: 167.1448, y: -165.78613}
+        - {x: 167.1448, y: 166.21387}
+    - name: sprite-sheet-infectado_14
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 581
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.74628, y: 166.21387}
+        - {x: -165.74628, y: -165.78613}
+        - {x: 166.25372, y: -165.78613}
+        - {x: 166.25372, y: 166.21387}
+    - name: sprite-sheet-infectado_15
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 581
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164.63733, y: 166.21387}
+        - {x: -165.63733, y: 165.21387}
+        - {x: -165.63733, y: -165.78613}
+        - {x: 167.36267, y: -165.78613}
+        - {x: 167.36267, y: 166.21387}
+    - name: sprite-sheet-infectado_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 102
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.78897, y: 166.1305}
+        - {x: -165.78897, y: -165.8695}
+        - {x: 166.21103, y: -165.8695}
+        - {x: 166.21103, y: 166.1305}
+    - name: sprite-sheet-infectado_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 102
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.8552, y: 166.1305}
+        - {x: -165.8552, y: -165.8695}
+        - {x: 167.1448, y: -165.8695}
+        - {x: 167.1448, y: 166.1305}
+    - name: sprite-sheet-infectado_18
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 102
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -165.74628, y: 166.1305}
+        - {x: -165.74628, y: -165.8695}
+        - {x: 166.25372, y: -165.8695}
+        - {x: 166.25372, y: 166.1305}
+    - name: sprite-sheet-infectado_19
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 102
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164.63733, y: 166.1305}
+        - {x: -165.63733, y: 165.1305}
+        - {x: -165.63733, y: -165.8695}
+        - {x: 167.36267, y: -165.8695}
+        - {x: 167.36267, y: 166.1305}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
