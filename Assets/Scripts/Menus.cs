@@ -10,9 +10,11 @@ public class Menus : MonoBehaviour {
 	}
 	
 	public void CallSingleplayerScene(){
+		PlayerPrefs.SetInt("gameplay", 1);
 		SceneManager.LoadScene(1);
 	}
 	public void CallMultiplayerScene(){
+		PlayerPrefs.SetInt("gameplay", 2);
 		SceneManager.LoadScene(1);
 	}
 	public void CallSettings(){
