@@ -10,18 +10,17 @@ public class PlayerBehaviour : MonoBehaviour {
 	public bool olhandoCima;
 	public bool esq;
 	public bool dir;
-	public bool cim;
-	public bool bax;
 	public bool podePular;
 	public int alturaPulo;
-	public GameObject bala;
+
 
 
 
 	void Awake (){
-		if (gameObject.name == "player1"){
-			olhandoDireita = true;
-			dir = true;
+		if (gameObject.name == "Player1"){
+			
+			olhandoDireita = false;
+			dir = false;
 			esq= false;
 			playerScr = new PlayersBehaviour(1);
 			player = Instantiate(personagens[PlayerPrefs.GetInt("personagemAtual")], gameObject.transform.position, gameObject.transform.rotation) as GameObject;	
@@ -29,7 +28,7 @@ public class PlayerBehaviour : MonoBehaviour {
 		else if (gameObject.name == "player2" && PlayerPrefs.GetInt("gameplay")==2){
 			olhandoDireita = false;
 			dir = false;
-			esq= true;
+			esq= false;
 			playerScr = new PlayersBehaviour(2);
 			player = Instantiate(personagens[PlayerPrefs.GetInt("personagemAtual2")], gameObject.transform.position, gameObject.transform.rotation) as GameObject;	
 			Vector3 scale = player.transform.localScale;
@@ -48,24 +47,24 @@ public class PlayerBehaviour : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (gameObject.name == "player1"){
+		if (gameObject.name == "Player1"){
 
 
 			if(Input.GetKey(KeyCode.LeftArrow)){
 				esq = true;
 				dir = false;
 				playerScr.AndarX(player, -velocidadeAndar);
-			} else if(Input.GetKey(KeyCode.RightArrow)){
+			} 
+			else if(Input.GetKey(KeyCode.RightArrow)){
 				esq = false;
 				dir = true;
 				playerScr.AndarX(player, velocidadeAndar);
-			} else if(Input.GetKey(KeyCode.UpArrow)){
-				bax = false;
-				cim = true;
+			} 
+			else if(Input.GetKey(KeyCode.UpArrow)){
 				playerScr.AndarY(player, velocidadeAndar);
-			} else if(Input.GetKey(KeyCode.DownArrow)){
-				bax = true;
-				cim = false;
+			} 
+			else if(Input.GetKey(KeyCode.DownArrow)){
+
 				playerScr.AndarY(player, -velocidadeAndar);
 			}
 
@@ -91,7 +90,6 @@ public class PlayerBehaviour : MonoBehaviour {
 		}
 
 		if(esq && olhandoDireita){
-
 			InverteX();
 		}
 		if(dir && !olhandoDireita){
@@ -99,13 +97,7 @@ public class PlayerBehaviour : MonoBehaviour {
 		}
 
 
-		if(bax && olhandoCima){
-
-			InverteX();
-		}
-		if(cim && !olhandoCima){
-			InverteX();
-		}
+	
 
 	}
 
@@ -121,16 +113,6 @@ public class PlayerBehaviour : MonoBehaviour {
 		player.transform.localScale = scale;
 	}
 
-	void InverteY(){
-		if (olhandoCima == true){
-			olhandoCima = false;
-		}
-		else if (olhandoCima == false){
-			olhandoCima = true;
-		} 
-		Vector3 scale = player.transform.localScale;
-		scale.y *= -1;
-		player.transform.localScale = scale;
-	}
+
 
 }

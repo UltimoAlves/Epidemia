@@ -19,14 +19,32 @@ public class PlayersBehaviour : MonoBehaviour {
 	}
 
 
-	public void AndarY(GameObject player, int velocidade){				
+	public void AndarY(GameObject player, int velocidade){
+		if(velocidade > 0){	
+			player.GetComponent<Animator>().SetBool("up", true);
+			player.GetComponent<Animator>().SetBool("side", false);
+			player.GetComponent<Animator>().SetBool("down", false);
+
+		} else {
+			player.GetComponent<Animator>().SetBool("down", true);
+			player.GetComponent<Animator>().SetBool("side", false);
+			player.GetComponent<Animator>().SetBool("up", false);
+
+		}
 		player.GetComponent<Rigidbody2D>().velocity = new Vector2(player.GetComponent<Rigidbody2D>().velocity.x, velocidade);
 	}
-	public void AndarX(GameObject player, int velocidade){				
-		player.GetComponent<Rigidbody2D>().velocity = new Vector2(player.GetComponent<Rigidbody2D>().velocity.y, velocidade);
+	public void AndarX(GameObject player, int velocidade){	
+		player.GetComponent<Animator>().SetBool("down", false);
+		player.GetComponent<Animator>().SetBool("side", true);
+		player.GetComponent<Animator>().SetBool("up", false);
+		player.GetComponent<Rigidbody2D>().velocity = new Vector2(velocidade, player.GetComponent<Rigidbody2D>().velocity.y);
 	}
 	public void Parar(GameObject player){
-		player.GetComponent<Animator>().SetBool("atirando", false);
+		player.GetComponent<Animator>().SetBool("down", false);
+		player.GetComponent<Animator>().SetBool("side", false);
+		player.GetComponent<Animator>().SetBool("up", false);
+		player.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+
 	}
 	void Start () {
 
