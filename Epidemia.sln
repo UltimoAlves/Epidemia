@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{C7AFB264-82E5-6F21-7EC3-51245CF05FF3}") = "Epidemia", "Assembly-CSharp.csproj", "{2FF79481-1131-8916-34B5-99F5D403499C}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epidemia.CSharp", "Epidemia.CSharp.csproj", "{56B6AA3E-518A-C271-0037-5E9526AEB432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2FF79481-1131-8916-34B5-99F5D403499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FF79481-1131-8916-34B5-99F5D403499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FF79481-1131-8916-34B5-99F5D403499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FF79481-1131-8916-34B5-99F5D403499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B6AA3E-518A-C271-0037-5E9526AEB432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B6AA3E-518A-C271-0037-5E9526AEB432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B6AA3E-518A-C271-0037-5E9526AEB432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B6AA3E-518A-C271-0037-5E9526AEB432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
